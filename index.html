@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Calculadora de Média </title>
+</head>
+
+<body onload="animation()">
+    <div class="container">
+        <div class="title">
+            <h1>Calculadora de média</h1>
+            <p>Descubra qual a sua média de nota de todas as provas!</p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="logo" />
+        </div>
+        <div class="content">
+            <div class="woman">
+                <img src="./images/business-3d-casual-life-3d-freelancer.png" alt="business-3d-casual-life-3d-freelancer" width="400">
+            </div>
+            <div class="calculator">
+
+                <div class="media-container">
+                    <div class="media notes">
+                        <h2>Informe as notas!</h2>
+                        <div> <input id="note1" type="number" placeholder="1ª nota" /></div>
+                        <div> <input id="note2" type="number" placeholder="2ª nota" /></div>
+                        <div> <input id="note3" type="number" placeholder="3ª nota" /></div>
+                        <div> <input id="note4" type="number" placeholder="4ª nota" /></div>
+                        <button class="button-yellow" type="button" onClick="calculate()">Calcular média</button>
+                        <div id="media" class="media-result">
+                            <p><span id="span"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-card">
+                <div>
+                    <img class="footer-image" src="https://github.com/deividsonsabino.png" />
+                </div>
+                <div>
+                    <p>Deividson Sabino</p>
+                    <p>Graduado em Sistemas de Informação e Programador Frontend.</p>
+                    <!--                     <p>
+                        <a class="linkedin" href="https://www.linkedin.com/in/deividson-sabino/"></a>Confira meus trabalhos no linkedin</a>
+                    </p> -->
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./app.js" />
+
+</script>
+
+</html>

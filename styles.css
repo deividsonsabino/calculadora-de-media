@@ -1,0 +1,115 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: url("https://img.freepik.com/fotos-gratis/fundo-interior-do-quarto-abstrato-liso-pano-de-fundo-roxo_1258-82967.jpg?w=826") no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1044px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-container {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+}
+
+.calculator {
+    border-radius: 20px;
+}
+
+.media {
+    background-color: #fff;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.media-result {
+    margin-top: 20px;
+}
+
+.aprooved {
+    padding: 5px;
+    background: green;
+    color: #fff;
+}
+
+.reprooved {
+    padding: 5px;
+    background: red;
+    color: #fff;
+}
+
+.button-yellow {
+    margin-top: 10px;
+    height: 40px;
+    color: #29274c;
+    background: #fada06;
+    border: none;
+    width: 100%;
+}
+
+.notes {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+input {
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.page-logo {
+    width: 100px
+}
+
+footer {
+    color: #fff;
+}
+
+.footer-card {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-image {
+    border-radius: 100%;
+    width: 50px
+}
